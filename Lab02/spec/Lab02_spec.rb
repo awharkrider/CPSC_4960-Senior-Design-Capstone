@@ -1,6 +1,6 @@
 require '../lib/Lab02.rb'
 
-describe 'Lab 032 Unit Tests' do
+describe 'Lab 02 Unit Tests' do
 
 end
   describe "#random_array" do

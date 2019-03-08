@@ -8,7 +8,7 @@
 # returns the string "Hello, " concatenated with the name. Run associated
 # tests via:  `$ rspec -e '#hello' spec/part2_spec.rb`
 def hello(name)
-  "Hello, " + name;
+  "Hello, " + name
 end
 
 # Define a method `sum(array)` that takes an array of integers as an argument
@@ -18,7 +18,7 @@ def sum(array)
 
   # If the array is empty, then inject will return a 0
   # else, it will enumerate over the array summing the integers
-  array.reduce(0, :+);
+  array.reduce(0, :+)
 
 end
 
